@@ -37,7 +37,7 @@ The dataset contains 404,352 question pairs as per the format is given in the fo
 
 Following is the wordcloud of top 2000 most frquently occuring words, clearly wh-questions dominate the dataset as expected from a CQA platform dataset.
 <p align="center">
-	<img src="plots/word_cloud.png" height='250px'/>
+	<img src="plots/word_cloud.png" height='250px'/><br>
 	<code>Fig 1: Wordcloud of top 2000 most frequently occurring words</code>
 </p>
 
