@@ -61,14 +61,19 @@ Later a classification layer was added to the concatenated output of two questio
 
 ### Dense Neural Network
 A `8-layered` vanilla cone-based neural network implemented for the dataset. We used `ReLU` activation function and trained the network for `100 epochs`. As it was binary classification task, final layer was of 2 neurons only.
-<div align="center"><img src="plots/8-layered NN.png" height='250px'/></div> 
-
+<p align="center">
+	<img src="plots/8-layered NN.png" height='250px'/><br>
+	<code>Fig 2: 8-Layer NN Architecture</code>
+</p>
 
 
 ### Siamese Architecture
 In this architecture, the same neural network model is being used to encode two individual sentences which are given as input independently. Both the input sentences are now encoded into sentence vector in the same embedding space, as shown in Figure 1. Then by using some distant metric decision will be made solely based on this result.
 
-<div align="center"><img src="plots/siamese.png" height='350px'/></div> 
+<p align="center">
+	<img src="plots/siamese.png" height='350px'/><br>
+	<code>Fig 3: General architecture of Siamese Model</code>
+</p>
 
 
 ## Results
