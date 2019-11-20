@@ -114,22 +114,22 @@ The LSTM Siamese Architecture was trained with `learning rate=0.001` and `Mean S
 Following graphs are only for the LSTM Siamese Network architecture. We tried considering data imbalancing and trained 2 different models according to it.
 
 <p align="center">
-	<img src="plots/balanced_lstm_acr.png" height='500px'/><br>
+	<img src="plots/balanced_lstm_acr.png" height='250px'/><br>
 	<code>Fig 7: Variation of accuracy with epoch for balanced dataset for LSTM</code>
 </p>
 
 <p align="center">
-	<img src="plots/balanced_lstm.png" height='500px'/><br>
+	<img src="plots/balanced_lstm.png" height='250px'/><br>
 	<code>Fig 8: Variation of loss with epoch for balanced dataset for LSTM</code>
 </p>
 
 <p align="center">
-	<img src="plots/unbalanced_lstm_acr.png" height='500px'/><br>
+	<img src="plots/unbalanced_lstm_acr.png" height='250px'/><br>
 	<code>Fig 9: Variation of accuracy with epoch for unbalanced dataset for LSTM</code>
 </p>
 
 <p align="center">
-	<img src="plots/unbalanced_lstm.png" height='500px'/><br>
+	<img src="plots/unbalanced_lstm.png" height='250px'/><br>
 	<code>Fig 10: Variation of loss with epoch for unbalanced dataset for LSTM</code>
 </p>
 
