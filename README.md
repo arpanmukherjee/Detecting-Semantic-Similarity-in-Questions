@@ -36,8 +36,8 @@ The dataset contains 404,352 question pairs as per the format is given in the fo
 | 3362 | 6722 | 6723 | Should I learn python or Java first? | If I had to choose between learning Java and Python, what should I choose to learn first? | 1 |
 
 Following is the wordcloud of top 2000 most frquently occuring words, clearly wh-questions dominate the dataset as expected from a CQA platform dataset.
-<div align="center"><img src="plots/word_cloud.png" height='250px'/></div> 
-
+<div align="center"><img src="plots/word_cloud.png" height='150px'/></div> 
+Fig 1: Wordcloud of top 2000 most frequently occurring words
 
 
 
@@ -61,14 +61,14 @@ Later a classification layer was added to the concatenated output of two questio
 
 ### Dense Neural Network
 A `8-layered` vanilla cone-based neural network implemented for the dataset. We used `ReLU` activation function and trained the network for `100 epochs`. As it was binary classification task, final layer was of 2 neurons only.
-<div align="center"><img src="plots/8-layered NN.png" height='250px'/></div> 
+<div align="center"><img src="plots/8-layered NN.png" height='150px'/></div> 
 
 
 
 ### Siamese Architecture
 In this architecture, the same neural network model is being used to encode two individual sentences which are given as input independently. Both the input sentences are now encoded into sentence vector in the same embedding space, as shown in Figure 1. Then by using some distant metric decision will be made solely based on this result.
 
-<div align="center"><img src="plots/siamese.png" height='350px'/></div> 
+<div align="center"><img src="plots/siamese.png" height='150px'/></div> 
 
 
 ## Results
